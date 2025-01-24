@@ -97,6 +97,21 @@ textarea {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
+.social-links {
+  display: inline-flex;
+  column-gap: 1.25rem;
+}
+
+.social-link {
+  color: var(--title-color);
+  font-size: var(--h3-font-size);
+  transition: color 0.7s var(--transition);
+}
+
+.social-link:hover {
+  color: var(--first-color);
+}
+
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 1320px;
@@ -149,7 +164,7 @@ textarea {
 }
 
 .nav-toggle {
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
   width: 28px;
   height: 28px;
   position: relative; 
